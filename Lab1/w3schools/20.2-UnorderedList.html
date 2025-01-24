@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 16px;
+          text-decoration: none;
+        }
+        li a:hover {
+          background-color: #111111;
+        }
+        </style>
+</head>
+<body>
+    <!-- 
+        style = "list-style-type: ..." - Атрибут стилизации ul списка
+        disc - Дефолт точка
+        circle - Пустой круг
+        square - Квадрат
+        none - Без пометки
+    -->
+
+    <ul style="list-style-type:disc;">
+        <li>Coffee</li>
+        <li>Tea
+            <ul>
+                <li>Black tea</li>
+                <li>Green tea</li>
+            </ul>
+        </li>
+        <li>Milk</li>
+    </ul>
+
+    <hr>
+
+    <ul style="list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #333333;">
+        <li style="float: left;"><a href="#home">Home</a></li>
+        <li style="float: left;"><a href="#news">News</a></li>
+        <li style="float: left;"><a href="#contact">Contact</a></li>
+        <li style="float: left;"><a href="#about">About</a></li>
+    </ul>
+</body>
+</html>
