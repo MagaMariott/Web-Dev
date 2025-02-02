@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(242, 244, 247);
+}
+
+fieldset {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+    border: none;
+}
+fieldset div {
+    margin: 150px 50px 200px;
+}
+.text {
+    font-size: 200%;
+	border-width: 3px;
+}
+.logo {
+    color: rgb(37, 106, 246);
+    font-family: sans Arial, Helvetica, Arial, Helvetica, sans-serif;
+    border: 3px black;
+}
+
+.door {
+    background-color: white;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+}
+.door input {
+    align-self: center;
+    font-size: 15px;
+    width: 90%;
+    height: 40px;
+	border-radius: 5px;
+	border: 1px solid gray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.door hr {
+    width: 90%;
+}
+.door a {
+    color: rgb(37, 106, 246);
+    text-align: center;
+    text-decoration: none;
+}
+.door button {
+    color: white;
+    background-color: rgb(101, 179, 67);
+    width: 50%;
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: none;
+    align-self: center;
+}
+
+
+
+footer {
+    background-color: white;
+    height: 300px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+footer a {
+    color: gray;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 15px;
+}
+footer button {
+    height: 30px;
+}
+footer hr {
+    width: 60%;
+}
+.languages {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+.links {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+.meta {
+    margin-left: 20%;
+    color: grey;
+}
